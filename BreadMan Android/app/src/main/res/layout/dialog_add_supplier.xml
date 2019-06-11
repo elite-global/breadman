@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:id="@+id/close_dailog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add Supplier"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/et_supplier_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/background_button_white_outline"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text=""
+        android:textColorHint="#80ffffff"
+        android:hint="Enter 6 digit Supplier id"
+        android:inputType="number|textNoSuggestions"
+        android:maxLength="6"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/background_button_white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Add"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+</LinearLayout>

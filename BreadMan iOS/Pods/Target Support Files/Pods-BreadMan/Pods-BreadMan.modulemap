@@ -1,0 +1,6 @@
+framework module Pods_BreadMan {
+  umbrella header "Pods-BreadMan-umbrella.h"
+
+  export *
+  module * { export * }
+}

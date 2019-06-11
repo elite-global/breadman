@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BreadMan</string>
+
+    <string name="sign_up"><u>SignUp</u></string>
+    <string name="signin"><u>SignIn</u></string>
+    <string name="resend"><u>Resend</u></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
